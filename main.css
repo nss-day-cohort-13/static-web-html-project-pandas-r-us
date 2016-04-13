@@ -175,23 +175,20 @@ footer, .page-wrap:after {
 /**************************************
 product images/cards
 ***************************************/
-.card {
-  margin: 5px 2px;
+.cardArticle {
+  margin: 2% 1.5%;
   padding: 0;
   width: 30%;
   border: 1px solid lightblue;
   display: inline-block;
+  border-radius: 5%;
+overflow: auto;
 }
 
-.card * {
+.cardArticle * {
   margin: 0 0 5px;
 }
 
-.available {
-  background-color: #333333;
-  color: yellow;
-  padding: 5px;
-}
 
 h1 {
   text-align: center;
@@ -223,11 +220,7 @@ img {
   max-height: 100%;
 }
 
-#card1,
-#card2,
-#card3,
-#card4,
-#card5 {
+.cards {
   padding-left: 0;
   background: lightgray;
 }
