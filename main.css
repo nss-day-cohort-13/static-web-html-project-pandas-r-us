@@ -162,6 +162,46 @@ footer, .page-wrap:after {
 ***************************************/
 
 
+/****************************************************************************
+              Culture Page
+*****************************************************************************/
 
 
+/*styles for the culture page column*/
+#cultureTitle {
+  text-align: center;
+}
 
+/*aligns the text divs into 2 columns*/
+.cultureCols {
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+}
+
+/*styles the images */
+.cultureImg {
+  height: 70%;
+  width: 50%;
+  float: left;
+  border-radius: 2em;
+  padding-right: 2%;
+}
+
+
+/*styles for both columns*/
+
+.cultureCols p {
+  margin: 0;
+  text-align: justify;
+}
+
+/*sets the margin for the left column*/
+#culCol1 {
+  margin: 0 3.5% 0 7%;
+}
+
+/*sets the margin for the right column*/
+#culCol2 {
+  margin: 0 7% 0 3.5%;
+}
