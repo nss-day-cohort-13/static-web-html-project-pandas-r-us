@@ -158,8 +158,66 @@ footer, .page-wrap:after {
 }
 
 /**************************************
-
+product images/cards
 ***************************************/
+.card {
+  margin: 5px 2px;
+  padding: 0;
+  width: 30%;
+  border: 1px solid lightblue;
+  display: inline-block;
+}
+
+.card * {
+  margin: 0 0 5px;
+}
+
+.available {
+  background-color: #333333;
+  color: yellow;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  padding: 0 5px;
+  height: 36px;
+}
+
+.picture {
+  text-align: center;
+}
+
+.bold * {
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+
+
+
+img {
+
+  width: 250px;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5 {
+  padding-left: 0;
+  background: lightgray;
+}
+
+
 
 
 
