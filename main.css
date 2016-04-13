@@ -140,6 +140,27 @@ footer, .page-wrap:after {
 
 
 /**************************************
+  MISSION PAGE 
+***************************************/
+#missionBox {
+  border: 1px solid #cfcfcf;
+  border-radius: 1em;
+  padding: 5%;
+  margin: 5%;
+  background: whitesmoke;
+  box-shadow: -3px 3px 25px;
+}
+
+#missionHeader {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#missionBody {
+  background: #cfcfcf;
+}
+
+/**************************************
 
 ***************************************/
 
