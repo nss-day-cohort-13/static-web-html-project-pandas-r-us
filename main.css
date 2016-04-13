@@ -4,15 +4,14 @@ GENERAL
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
 }
 
 /* Site Body*/
 
 html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -37,8 +36,6 @@ NAVIGATION
 
 nav {
   width: 100%;
-  padding: 20px 0;
-  margin: 20px 0 0;
 }
 
 #logo {
@@ -51,10 +48,10 @@ nav {
 
 nav ul {
   display: inline-block;
-  text-align: right;
+  float: right;
+  text-align: justify;
   list-style: none;
-  margin-left: 45%;
-  padding: 30px;
+  margin-top: 5%;
 }
 
 nav li {
@@ -88,7 +85,7 @@ nav a.selected, nav a:hover {
 Homepage Images
 ***************************************/
 
-.homepageGallery {
+#wrapperImg {
   max-width: 80%
   margin: 0 10%;
 }
