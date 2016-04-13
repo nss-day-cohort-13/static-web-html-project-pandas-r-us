@@ -63,7 +63,7 @@ var cardEight = {
   url: "http://sourcefed.com/wp-content/uploads/2012/10/twitter-for-ios-app-thumbnail.jpg"
 }
 
-cardArray.push(cardOne, cardTwo, cardThree, cardFour, cardSix, cardSeven, cardEight);
+cardArray.push(cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight);
 
 
 cardArticle = document.getElementById("card");
