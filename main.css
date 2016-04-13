@@ -285,4 +285,57 @@ img {
 }
 
 
+/**************************************
+Contact Page CSS
+***************************************/
+
+.contactImg {
+  display: inline-block;
+  max-width: 300px;
+  height: 300px;
+  margin: 5px 32px;
+}
+
+.contact-gallery {
+/*  max-width: 80%;
+*/  margin: 0;
+  list-style: none;
+}
+
+.contact-li li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-gallery li {
+  float: left;
+  max-width: 30%;
+  margin: 18px 18px 30px 18px;
+}
+
+.contact-h1-style {
+  text-align: center;
+  margin: 32px 0 0 0;
+  padding: 5px;
+  font-size: 75px;
+
+}
+
+.contact-name-style {
+  margin: 0;
+  font-size: 38px;
+  text-align: center;
+}
+
+.contact-p {
+  text-align: center;
+}
+
+hr {
+  width: 40%;
+}
+
+
+
 
