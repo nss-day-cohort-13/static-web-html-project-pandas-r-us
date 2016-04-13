@@ -151,9 +151,10 @@ footer, .page-wrap:after {
 
 
 /**************************************
-  MISSION PAGE 
+  MISSION PAGE
 ***************************************/
-#missionBox {
+#missionBox,
+#cultureBox {
   border: 1px solid #cfcfcf;
   border-radius: 1em;
   padding: 5%;
@@ -243,11 +244,16 @@ img {
 #cultureTitle {
   text-align: center;
 }
+#cultureTitle h1 {
+  padding: 0 0 5%;
+  margin: 0;
+
+}
 
 /*aligns the text divs into 2 columns*/
 .cultureCols {
   display: inline-block;
-  width: 39%;
+  width: 42%;
   vertical-align: top;
 }
 
@@ -270,10 +276,13 @@ img {
 
 /*sets the margin for the left column*/
 #culCol1 {
-  margin: 0 3.5% 0 7%;
+  margin: 0 2% 0 4%;
 }
 
 /*sets the margin for the right column*/
 #culCol2 {
-  margin: 0 7% 0 3.5%;
+  margin: 0 4% 0 2%;
 }
+
+
+
