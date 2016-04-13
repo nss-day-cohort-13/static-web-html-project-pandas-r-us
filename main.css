@@ -209,7 +209,9 @@ h1 {
   padding-left: 5px;
 }
 
-
+.cardArticle p {
+  padding-left: 10%;
+}
 
 
 img {
