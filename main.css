@@ -1,0 +1,149 @@
+/**************************************
+GENERAL
+***************************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/* Site Body*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+
+/**************************************
+HEADING
+***************************************/
+
+header {
+  max-width: 100%;
+  background-color: #239C8A;
+}
+
+
+/**************************************
+NAVIGATION
+***************************************/
+
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0 0;
+}
+
+#logo {
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+nav ul {
+  display: inline-block;
+  text-align: right;
+  list-style: none;
+  margin-left: 45%;
+  padding: 30px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/*Links*/
+a {
+  color: #6ab47b;
+}
+
+
+/* Nav Link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/*Selected Nav Link Color*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+
+/**************************************
+Homepage Images
+***************************************/
+
+.homepageGallery {
+  max-width: 80%
+  margin: 0 10%;
+}
+
+.homepageImg {
+  display: inline-block;
+  max-width: 300px;
+  height: 300px;
+  margin: 5% auto;
+}
+
+.homepageGallery li {
+  float: left;
+  max-width: 30%;
+  margin: 5% 1.66%;
+}
+
+/**************************************
+FOOTER
+***************************************/
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: #4C4850;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.social-icon {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -80px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after {
+  height: 80px;
+}
+
+
+/**************************************
+
+***************************************/
+
+
+
+
+
