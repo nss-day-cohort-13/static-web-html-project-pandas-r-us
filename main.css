@@ -82,12 +82,25 @@ nav a.selected, nav a:hover {
 
 
 /**************************************
-Homepage Images
+Homepage Images and Title
 ***************************************/
 
 #wrapperImg {
-  max-width: 80%
-  margin: 0 10%;
+  overflow: auto;
+}
+
+.homepageTitle {
+  background-color: #D28A65;
+  text-align: center;
+  margin-top: 0;
+  padding: 1%;
+  font-size: 2rem;
+  color: #4C4850;
+}
+
+.homepageGallery {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .homepageImg {
@@ -100,7 +113,8 @@ Homepage Images
 .homepageGallery li {
   float: left;
   max-width: 30%;
-  margin: 5% 1.66%;
+  margin: 2% 1.66%;
+  list-style: none;
 }
 
 /**************************************
