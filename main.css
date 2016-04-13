@@ -82,12 +82,25 @@ nav a.selected, nav a:hover {
 
 
 /**************************************
-Homepage Images
+Homepage Images and Title
 ***************************************/
 
+#wrapperImg {
+  overflow: auto;
+}
+
+.homepageTitle {
+  background-color: #D28A65;
+  text-align: center;
+  margin-top: 0;
+  padding: 1%;
+  font-size: 2rem;
+  color: #4C4850;
+}
+
 .homepageGallery {
-  max-width: 80%
-  margin: 0 10%;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .homepageImg {
@@ -100,9 +113,9 @@ Homepage Images
 .homepageGallery li {
   float: left;
   max-width: 30%;
-  margin: 5% 1.66%;
+  margin: 2% 1.66%;
+  list-style: none;
 }
-
 
 /**************************************
 FOOTER
@@ -138,8 +151,138 @@ footer, .page-wrap:after {
 
 
 /**************************************
-
+  MISSION PAGE
 ***************************************/
+#missionBox,
+#cultureBox {
+  border: 1px solid #cfcfcf;
+  border-radius: 1em;
+  padding: 5%;
+  margin: 5%;
+  background: whitesmoke;
+  box-shadow: -3px 3px 25px;
+}
+
+#missionHeader {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#missionBody {
+  background: #cfcfcf;
+}
+
+/**************************************
+product images/cards
+***************************************/
+.card {
+  margin: 5px 2px;
+  padding: 0;
+  width: 30%;
+  border: 1px solid lightblue;
+  display: inline-block;
+}
+
+.card * {
+  margin: 0 0 5px;
+}
+
+.available {
+  background-color: #333333;
+  color: yellow;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  padding: 0 5px;
+  height: 36px;
+}
+
+.picture {
+  text-align: center;
+}
+
+.bold * {
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+
+
+
+img {
+
+  width: 250px;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5 {
+  padding-left: 0;
+  background: lightgray;
+}
+
+
+
+
+/****************************************************************************
+              Culture Page
+*****************************************************************************/
+
+
+/*styles for the culture page column*/
+#cultureTitle {
+  text-align: center;
+}
+#cultureTitle h1 {
+  padding: 0 0 5%;
+  margin: 0;
+
+}
+
+/*aligns the text divs into 2 columns*/
+.cultureCols {
+  display: inline-block;
+  width: 42%;
+  vertical-align: top;
+}
+
+/*styles the images */
+.cultureImg {
+  height: 70%;
+  width: 50%;
+  float: left;
+  border-radius: 2em;
+  padding-right: 2%;
+}
+
+
+/*styles for both columns*/
+
+.cultureCols p {
+  margin: 0;
+  text-align: justify;
+}
+
+/*sets the margin for the left column*/
+#culCol1 {
+  margin: 0 2% 0 4%;
+}
+
+/*sets the margin for the right column*/
+#culCol2 {
+  margin: 0 4% 0 2%;
+}
 
 
 /**************************************
@@ -192,8 +335,6 @@ Contact Page CSS
 hr {
   width: 40%;
 }
-
-
 
 
 
