@@ -99,8 +99,9 @@ Homepage Images and Title
 }
 
 .homepageGallery {
-  max-width: 80%;
+  max-width: 67%;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .homepageImg {
@@ -108,6 +109,7 @@ Homepage Images and Title
   max-width: 300px;
   height: 300px;
   margin: 5% auto;
+  border-radius: 2em;
 }
 
 .homepageGallery li {
