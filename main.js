@@ -75,11 +75,23 @@ for (var i = 0; i < numberOfCards; i++){
   var title = "<h1>" + currentCard.name + "</h1>";
   var description = "<p>" + currentCard.desctiption + "</p>";
   var price = "<p>$" + currentCard.price + "</p>";
-  var img = currentCard.url;
+  var img = "<img src=\"" + currentCard.url + "\" alt=\"Pandas\">"
 
-  cardArticle.innerHTML += "<article class=\"cardArticle\"><header class=\"cards\" class=\"header\">" + title
-  + "</header><div class=\"picture\"><img src=" + img
-  + " alt=\"Pandas\" ></div><p class=\"description\">" + description
-  + "</p><header class=\"header\">" + price
-  + " </header></article>"
+  cardArticle.innerHTML += "<article class=\"cards\">"
+                        + title
+                        + img
+                        + description
+                        + price
+                        + "</article>"
 }
+
+
+
+
+
+
+  // class=\"cardArticle\"><header class=\"cards\" class=\"header\">" + title
+  // + "</header><div class=\"picture\"><img src=" + img
+  // + " alt=\"Pandas\" ></div><p class=\"description\">" + description
+  // + "</p><header class=\"header\">" + price
+  // + " </header></article>"

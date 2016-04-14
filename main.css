@@ -175,56 +175,40 @@ footer, .page-wrap:after {
 /**************************************
 product images/cards
 ***************************************/
-.cardArticle {
+.cards {
   margin: 2% 1.5%;
   padding: 0;
   width: 30%;
   border: 1px solid lightblue;
   display: inline-block;
   border-radius: 5%;
-overflow: auto;
+  overflow: auto;
+  vertical-align: top;
 }
 
-.cardArticle * {
+.cards * {
   margin: 0 0 5px;
 }
 
 
-h1 {
+.cards  h1 {
   text-align: center;
+  padding: 5% 0;
 }
 
-.description {
-  text-align: justify;
-  padding: 0 5px;
-  height: 36px;
-}
-
-.picture {
-  text-align: center;
-}
-
-.bold * {
-  font-weight: bold;
-  padding-left: 5px;
-}
-
-.cardArticle p {
-  padding-left: 10%;
-}
-
-
-img {
-
+.cards img {
   width: 250px;
   height: 180px;
   max-width: 100%;
   max-height: 100%;
+  display: block;
+  margin: 5% auto;
 }
 
-.cards {
-  padding-left: 0;
-  background: lightgray;
+
+
+.cards p {
+  padding-left: 15%;
 }
 
 
