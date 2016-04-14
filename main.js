@@ -7,6 +7,8 @@
 
 var cardArray = [];
 
+
+// objects to go into array to create cards
 var cardOne = {
   name: "Panda Bear",
   desctiption: "Your standard, cute panda bear.",
@@ -63,13 +65,16 @@ var cardEight = {
   url: "/images/pandateddy.jpg"
 }
 
+// putting objects into array
 cardArray.push(cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight);
 
 
 cardArticle = document.getElementById("card");
 
+// gets the length of array to determin how many loops to do
 var numberOfCards = cardArray.length;
 
+// loop that adds elements to html based on the number of object(cards) created
 for (var i = 0; i < numberOfCards; i++){
   currentCard = cardArray[i];
   var title = "<h1>" + currentCard.name + "</h1>";
@@ -90,8 +95,3 @@ for (var i = 0; i < numberOfCards; i++){
 
 
 
-  // class=\"cardArticle\"><header class=\"cards\" class=\"header\">" + title
-  // + "</header><div class=\"picture\"><img src=" + img
-  // + " alt=\"Pandas\" ></div><p class=\"description\">" + description
-  // + "</p><header class=\"header\">" + price
-  // + " </header></article>"
