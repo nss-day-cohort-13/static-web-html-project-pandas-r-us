@@ -175,27 +175,32 @@ footer, .page-wrap:after {
 /**************************************
 product images/cards
 ***************************************/
+
+/*.cards styles the class for each article conaining all card elements*/
 .cards {
   margin: 2% 1.5%;
   padding: 0;
   width: 30%;
-  border: 1px solid lightblue;
+  border: 2px solid lightblue;
   display: inline-block;
   border-radius: 5%;
   overflow: auto;
   vertical-align: top;
 }
 
-.cards * {
+/*.cards * {
   margin: 0 0 5px;
-}
+}*/
 
-
+/*controls the main heading of each card*/
 .cards  h1 {
   text-align: center;
   padding: 5% 0;
+  background-color: #4EAFA1;
+  margin: 0;
 }
 
+/*card images*/
 .cards img {
   width: 250px;
   height: 180px;
@@ -203,12 +208,20 @@ product images/cards
   max-height: 100%;
   display: block;
   margin: 5% auto;
+  border-radius: 5%;
 }
 
 
-
+/*controls the prices and description paragraphs*/
 .cards p {
-  padding-left: 15%;
+    text-align: center;
+
+}
+
+
+.cards :nth-child(4) {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 
