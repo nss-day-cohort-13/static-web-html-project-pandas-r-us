@@ -154,7 +154,8 @@ footer, .page-wrap:after {
   MISSION PAGE
 ***************************************/
 #missionBox,
-#cultureBox {
+#cultureBox,
+.cards {
   border: 1px solid #cfcfcf;
   border-radius: 1em;
   padding: 5%;
@@ -163,12 +164,20 @@ footer, .page-wrap:after {
   box-shadow: -3px 3px 25px;
 }
 
+#missionBox h1,
+#cultureBox h1 {
+  background-color: #4EAFA1;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+}
+
 #missionHeader {
   text-align: center;
   padding-bottom: 10px;
 }
 
-#missionBody {
+.body {
   background: #cfcfcf;
 }
 
@@ -229,13 +238,15 @@ product images/cards
 
 
 /*styles for the culture page column*/
-#cultureTitle {
+#cultureTitle,
+#headerBox {
   text-align: center;
 }
-#cultureTitle h1 {
-  padding: 0 0 5%;
-  margin: 0;
-
+#cultureTitle h1,
+#headerBox h1 {
+  margin: 0 0 5%;
+  padding: 20px 50px;
+  border-radius: 2em;
 }
 
 /*aligns the text divs into 2 columns*/
