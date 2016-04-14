@@ -87,10 +87,6 @@ nav a.selected, nav a:hover {
 Homepage Images and Title
 ***************************************/
 
-#wrapperImg {
-  overflow: auto;
-}
-
 .homepageTitle {
   background-color: #D28A65;
   text-align: center;
@@ -103,7 +99,6 @@ Homepage Images and Title
 .homepageGallery {
   max-width: 67%;
   margin: 0 auto;
-  overflow: auto;
 }
 
 .homepageImg {
@@ -112,6 +107,7 @@ Homepage Images and Title
   height: 300px;
   margin: 5% auto;
   border-radius: 2em;
+  padding: 0;
 }
 
 .homepageGallery li {
