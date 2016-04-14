@@ -1,9 +1,11 @@
 /**************************************
 GENERAL
 ***************************************/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 /* Site Body*/
@@ -177,56 +179,53 @@ footer, .page-wrap:after {
 /**************************************
 product images/cards
 ***************************************/
-.cardArticle {
+
+/*.cards styles the class for each article conaining all card elements*/
+.cards {
   margin: 2% 1.5%;
   padding: 0;
   width: 30%;
-  border: 1px solid lightblue;
+  border: 2px solid lightblue;
   display: inline-block;
   border-radius: 5%;
-overflow: auto;
+  overflow: auto;
+  vertical-align: top;
 }
 
-.cardArticle * {
+/*.cards * {
   margin: 0 0 5px;
-}
+}*/
 
-
-h1 {
+/*controls the main heading of each card*/
+.cards  h1 {
   text-align: center;
+  padding: 5% 0;
+  background-color: #4EAFA1;
+  margin: 0;
 }
 
-.description {
-  text-align: justify;
-  padding: 0 5px;
-  height: 36px;
-}
-
-.picture {
-  text-align: center;
-}
-
-.bold * {
-  font-weight: bold;
-  padding-left: 5px;
-}
-
-.cardArticle p {
-  padding-left: 10%;
-}
-
-
-img {
-
+/*card images*/
+.cards img {
   width: 250px;
   height: 180px;
   max-width: 100%;
   max-height: 100%;
+  display: block;
+  margin: 5% auto;
+  border-radius: 5%;
 }
 
-.cards {
-  padding-left: 0;
-  background: lightgray;
+
+/*controls the prices and description paragraphs*/
+.cards p {
+    text-align: center;
+
+}
+
+
+.cards :nth-child(4) {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 
